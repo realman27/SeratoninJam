@@ -12886,18 +12886,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2948396017926632272, guid: dd2bf2f11ecc067489e87504796e9b2d, type: 3}
-      propertyPath: Speed
-      value: 600
-      objectReference: {fileID: 0}
-    - target: {fileID: 2948396017926632272, guid: dd2bf2f11ecc067489e87504796e9b2d, type: 3}
-      propertyPath: jumpSpeed
-      value: 500
-      objectReference: {fileID: 0}
-    - target: {fileID: 2948396017926632273, guid: dd2bf2f11ecc067489e87504796e9b2d, type: 3}
-      propertyPath: gravity
-      value: 500
-      objectReference: {fileID: 0}
     - target: {fileID: 2948396017926632275, guid: dd2bf2f11ecc067489e87504796e9b2d, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.7
@@ -12942,21 +12930,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
-    - target: {fileID: 2948396017926632277, guid: dd2bf2f11ecc067489e87504796e9b2d, type: 3}
-      propertyPath: m_Mass
-      value: 1000
-      objectReference: {fileID: 0}
     - target: {fileID: 2948396017926632278, guid: dd2bf2f11ecc067489e87504796e9b2d, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 2948396018531131444, guid: dd2bf2f11ecc067489e87504796e9b2d, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: b94860f4c2c6ad54d9240fdf6ce2ae42, type: 3}
-    - target: {fileID: 2948396018531131444, guid: dd2bf2f11ecc067489e87504796e9b2d, type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd2bf2f11ecc067489e87504796e9b2d, type: 3}
