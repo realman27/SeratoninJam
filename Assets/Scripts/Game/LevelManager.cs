@@ -83,6 +83,9 @@ public class LevelManager : MonoBehaviour
         player.transform.position = new Vector3(-3.7f, 12.4f, 0f);
         cam.player = player.transform;
         deadMenu.SetActive(false);
+
+        UnloadLevel(currentLevel);
+        LoadLevel(currentLevel - 1);
     }
 
     public void ReturnToMenu()
