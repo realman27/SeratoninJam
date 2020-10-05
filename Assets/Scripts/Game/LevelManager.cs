@@ -80,12 +80,12 @@ public class LevelManager : MonoBehaviour
     public void Respawn()
     {
         GameObject player = Instantiate(playerPrefab);
-        player.transform.position = new Vector3(-3.7f, 12.4f, 0f);
+        player.transform.position = new Vector3(4.9f, 0.05f, 0);
         cam.player = player.transform;
         deadMenu.SetActive(false);
 
-        UnloadLevel(currentLevel);
-        LoadLevel(currentLevel - 1);
+        //UnloadLevel(currentLevel);
+        //LoadLevel(currentLevel - 1);
     }
 
     public void ReturnToMenu()
